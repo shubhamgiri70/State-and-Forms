@@ -1,0 +1,205 @@
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default spacing for paragraphs */
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for lists */
+ul,
+ol,
+dl {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default styling for form elements */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Remove default styling for anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styling for images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default styling for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* custom style */
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%) -25px 0,
+    linear-gradient(-45deg, #f0f0f0 25%, transparent 25%) -25px 0,
+    linear-gradient(45deg, transparent 50%, #f0f0f0 60%),
+    linear-gradient(-45deg, transparent 50%, #f0f0f0 60%);
+  background-size: 2px 4px;
+  background-color: #b6edf5;
+}
+
+/* header section */
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #0f2346;
+  padding: 1.5rem 0 0 0;
+}
+
+.header-underline {
+  text-align: center;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(193, 140, 70);
+  border: none;
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.tags li {
+  margin-left: 2rem;
+  cursor: pointer;
+  color: rgb(193, 140, 70);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 6px;
+}
+
+.tags li:hover {
+  background-color: rgb(201, 164, 116);
+  color: whitesmoke;
+  border-color: rgb(2, 135, 168);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0.4, 0.4);
+}
+
+/* food-item section */
+
+.food-items {
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.food-items li {
+  width: 45%;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.food-items li:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0.4, 0.4);
+  border-radius: 5px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border: 3px solid rgb(201, 164, 116);
+}
+
+.food-details {
+  margin-left: 1rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+span {
+  color: rgb(193, 140, 70);
+  font-size: 1.7rem;
+}

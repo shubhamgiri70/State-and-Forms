@@ -1,0 +1,130 @@
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default spacing for paragraphs */
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for lists */
+ul,
+ol,
+dl {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default styling for form elements */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Remove default styling for anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styling for images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default styling for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+body {
+  width: 100%;
+}
+
+.main {
+  width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.open-state {
+  padding: 2rem;
+  border: 1px solid black;
+  background-color: rgb(120, 194, 161);
+  cursor: pointer;
+}
+
+.close-state {
+  padding: 2rem;
+  border: 1px solid black;
+  background-color: rgb(245, 201, 147);
+  cursor: pointer;
+}
+
+p {
+  padding: 2rem;
+  border: 0.7px solid rgb(130, 128, 128);
+  background-color: rgb(218, 214, 214);
+}

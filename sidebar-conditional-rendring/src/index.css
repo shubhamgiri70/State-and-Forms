@@ -1,0 +1,197 @@
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default spacing for paragraphs */
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for lists */
+ul,
+ol,
+dl {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default styling for form elements */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Remove default styling for anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styling for images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default styling for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom style */
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* navbar */
+
+section {
+  display: flex;
+}
+
+.side-bar {
+  flex: 0 1 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #74ccd9;
+  height: auto;
+  border: 3px solid brown;
+}
+
+.side-bar ul li {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 2.5px solid brown;
+  cursor: pointer;
+}
+
+#home {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.side-bar span {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 1rem;
+  border-top: 2.5px solid brown;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  background-color: brown;
+  padding: 1rem;
+  color: aliceblue;
+}
+
+/* Main */
+
+.movies-list {
+  flex: 0 1 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.movie {
+  width: 30rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 212, 212);
+  border-radius: 5px;
+}
+
+.movie:hover {
+  box-shadow: 1px 1.5px 15px 2px brown;
+}
+
+img {
+  width: 30rem;
+  height: 18rem;
+  margin-bottom: 1rem;
+}
+
+.movie ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie ul li {
+  font-size: 1.2rem;
+}
+
+.movie-button {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.movie-button button {
+  padding: 0.6rem;
+  background-color: rgb(202, 166, 149);
+  color: brown;
+  font-size: 1.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

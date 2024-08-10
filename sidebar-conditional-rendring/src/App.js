@@ -2,9 +2,7 @@ import React from "react";
 import Sidebar from "./component/Sidebar";
 import Main from "./component/Main";
 
-
 function App() {
-  console.log(data);
   return (
     <>
       <h1>Movie List</h1>
@@ -15,4 +13,5 @@ function App() {
     </>
   );
 }
+
 export default App;

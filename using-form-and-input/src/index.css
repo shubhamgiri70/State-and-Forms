@@ -27,17 +27,21 @@ label {
   font-size: 1.3rem;
 }
 
-#username {
+input {
   padding: 0.5rem;
   width: 90%;
   margin-left: 1rem;
 }
 
-#password {
-  padding: 0.5rem;
-  width: 90%;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
+input.error {
+  border-color: red;
+}
+
+span {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: tomato;
 }
 
 #submit {

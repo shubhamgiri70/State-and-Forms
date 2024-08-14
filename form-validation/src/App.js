@@ -1,11 +1,13 @@
 import React from "react";
 import MultipleInput from "./components/multipleInput";
+import Validation from "./components/Validation";
 
 function App() {
   return (
     <>
       <div className="main">
-        <MultipleInput />
+        {/* <MultipleInput /> */}
+        <Validation />
       </div>
     </>
   );

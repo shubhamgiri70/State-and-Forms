@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/index.css";
 
+
 function People(props) {
   return (
     <section className="cards">

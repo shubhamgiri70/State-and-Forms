@@ -58,5 +58,5 @@ function createTags() {
   });
 }
 
-createUI(data); // Initially show all items
+createUI(data); 
 createTags();

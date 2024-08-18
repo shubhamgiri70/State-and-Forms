@@ -154,6 +154,12 @@ aside {
 }
 
 aside div span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  font-size: 1.3rem;
+  height: 4rem;
   margin: 1rem;
   padding: 1rem;
   border-radius: 50%;
@@ -196,6 +202,7 @@ main {
 .card {
   width: 400px;
   text-align: center;
+  margin: 1rem;
 }
 
 .image {
